@@ -61,9 +61,7 @@ img {
     cursor: pointer;
     display: none;
   }
-  #check{
-    display: none;
-  }
+
   @media (max-width: 952px){
     .navbar-brand{
         height:82px;
@@ -104,12 +102,7 @@ img {
     a:hover,a.active{
       background: none;
       color: #360a36;
-    }
-    #check:checked ~ ul{
-      left: 0;
-    }
-
-    
+    }    
   }
 
   a.menu {
